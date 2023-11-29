@@ -5,7 +5,7 @@ import java.util.List;
 
 public class LunchDBService {
 
-    private List<LunchItem> lunchItems;
+    static List<LunchItem> lunchItems;
     static Allergen wheat = new Allergen("01a", "Obiloviny - pšenice");
     static Allergen milk = new Allergen("07", "Mléko");
     static Allergen eggs = new Allergen("03", "Vejce");
